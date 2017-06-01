@@ -1,0 +1,258 @@
+/*
+* @Author: lenovo
+* @Date:   2017-04-10 19:52:45
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-04-10 21:50:42
+*/
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0.12rem
+}
+/* 头部开始 */
+.header{
+	width:100%;
+	height:0.38rem;
+	background: #007BE3;
+	position: fixed;
+    z-index: 1000;
+}
+.header ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.header ul li{
+	width: 20%;
+	height: 100%;
+	text-align: center;
+}
+.header ul li a{
+	text-decoration: none;
+	font-size: 0.14rem;
+	text-align: center;
+	line-height: 0.38rem;
+	color: white;
+}
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 1.8rem;
+	background: url('../img/banner.jpg') center center no-repeat;
+	background-size: 100%;	
+}
+.bigbox{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #F5F6FA;
+}
+.box{
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+.box .top{
+	width: 100%;
+	height:0.14rem ;
+	padding-top: 0.02rem;
+	margin-bottom: 0.1rem;
+}
+.box .top h2{
+	font-size: 0.12rem;
+	color: black;
+	float: left;
+	line-height: 0.14rem;
+	font-weight: normal;
+}
+.box .top div{
+	width: 0.068rem;
+	height: 0.08rem;
+	background: url('../img/箭头.png') center center no-repeat;
+	background-size: 100%;
+	float: left;
+	margin: 0.03rem 0.07rem;
+}
+.box .center{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background:#fff;
+	padding-top: 0.02rem;
+	box-sizing: border-box;
+	padding: 0.02rem 0.08rem;
+} 
+.box .center p{
+	font-size: 0.12rem;
+	color: #929292;
+	margin-bottom: 0.1rem;
+}
+.box .center>div:nth-child(1){
+	width: 1.37rem;
+	height: 1.12rem;
+	float: left;
+	background: url('../img/135.png')center center no-repeat;
+	background-size: 100%;
+}
+.box  .more{
+	width: 100%;
+	height: 0.36rem;
+	/* margin-top: 0.2rem; */
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.box .more>div{
+	width: 100%;
+	height: 0.36rem;
+	position: absolute;
+	top: 0.1rem;
+}
+.box  .more>div:nth-child(1){
+	width: 0.21rem;
+	height: 0.21rem;
+	left: 0.2rem;
+	background: url('../img/s1.png')center center no-repeat;
+	background-size: 100%;
+}
+.box .more>div:nth-child(2){
+	width: 0.63rem;
+	height: 0.21rem;
+	left: 0.46rem;
+	background: url('../img/上一页.png')center center no-repeat;
+	background-size: 100%;
+}
+.box  .more>div:nth-child(3){
+	width: 0.6rem;
+	height: 0.21rem;
+	border: 1px solid black;
+	border-radius: 0.2rem;
+	left: 1.15rem;
+	box-sizing: border-box;
+	font-size: 0.1rem;
+	color: black;
+	text-align: center;
+	line-height: 0.21rem;
+	font-weight: 400;
+}
+.box  .more>div:nth-child(4){
+	width: 0.63rem;
+	height: 0.21rem;
+	right: 0.46rem;
+	background: url('../img/下一页.png')center center no-repeat;
+	background-size: 100%;
+}
+.box  .more>div:nth-child(5){
+	width: 0.21rem;
+	height: 0.21rem;
+	right: 0.2rem;
+	background: url('../img/s2.png')center center no-repeat;
+	background-size: 100%;
+}
+
+.bigbox .tea{
+	width: 100%;
+	height: 0.3rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.08rem;
+}
+.bigbox .tea p{
+	width: 100%;
+	height: 0.12rem;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.12rem;
+	color: #333;
+	margin-bottom: 0.04rem;
+}
+/* 底部开始 */
+.foot{
+	width: 100%;
+	height: 0.384rem;
+	background: #e7e7e7;
+	border: 1px solid rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 99
+}
+.foot >div:nth-child(1){
+	width: 30%;
+	height: 100%;
+	float: left;
+
+}
+.foot >div:nth-child(1) div:nth-child(1){
+	width: 0.14rem;
+	height: 0.14rem;
+	float: left;
+	margin: 0.12rem 0.11rem;
+	background-image: url('../img/qq.png');
+	background-size: 0.14rem;
+	background-position: 0 0;
+}
+.foot >div:nth-child(1) div:nth-child(2){
+	width: 0.5rem;
+	height: 0.384rem;
+	font-size: 0.12rem;
+	color: black;
+	float: left;
+	line-height: 0.384rem;
+	margin-left: -0.04rem;
+}
+.foot>div:nth-child(2){
+	width: 40%;
+	height: 100%;
+	background: #ff8d12;
+	margin-top: -0.04rem;
+	float: left;
+	border-radius: 0.04rem;
+	margin-left: -0.05rem;
+	box-shadow:0 0  0.02rem #ff8d23 ;
+}
+.foot>div:nth-child(2) div:nth-child(1){
+	width:0.15rem ;
+	height: 0.19rem;
+	float: left;
+	margin:0.115rem 0.15rem 0.115rem 0.25rem;
+	background-image: url('../img//shouye6.png') ;
+	background-size: 1rem;
+	background-position: -0.8rem -2.4rem;
+}
+.foot>div:nth-child(2) div:nth-child(2){
+	width:0.5rem;
+	font-size:0.12rem;
+	color: white;
+	float: left;
+	margin-left: -0.1rem;
+	line-height: 0.384rem;
+
+}
+
+.foot >div:nth-child(3){
+	width: 30%;
+	height: 100%;
+	float: right;
+}
+.foot >div:nth-child(3) >div:nth-child(1){
+	width: 0.2rem;
+	height: 0.15rem;
+	margin: 0.115rem 0.1rem 0.115rem 0.15rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 1rem;
+	background-position:-0.8rem -2.65rem ;
+	float: left;
+}
+
+.foot >div:nth-child(3) >div:nth-child(2){
+	width:0.5rem ;
+	height: 100%;
+	font-size:0.12rem;
+	color: black;
+	line-height: 0.384rem; 
+	float: left;
+	margin-left: -0.04rem;
+}
+/* 底部结束 */

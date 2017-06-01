@@ -1,0 +1,388 @@
+/*
+* @Author: lenovo
+* @Date:   2017-03-31 15:17:43
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-04-10 23:36:51
+*/
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/* 头部开始 */
+.header{
+	width:100%;
+	height:0.38rem;
+	background: #007BE3;
+	position: fixed;
+    z-index: 1000;
+}
+.header .box{
+	width: 1rem;
+	height: 0.3rem;
+	padding-top:0.08rem;
+	margin: 0 auto;
+	/* background: pink; */
+}
+.header .box a{
+	display: block;
+}
+.header .box img{
+	width: 0.3rem;
+	height: 0.3rem;	
+	float: left;
+}
+.header .box h3{
+	float: left;
+	color: white;
+	margin-left: 0.08rem;
+	font-size: 0.16rem;
+    font-family: "苹方","微软雅黑", "Helvetica";
+   
+}
+/* 头部结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 2.13rem;
+ 	position: relative;
+ 	background: yellow;
+}
+.banner img{
+	width: 100%;
+	height: 2.13rem;
+}
+
+/* banner结束 */
+/* 项目开始 */
+.content{
+	width: 100%;
+	height: auto;
+	padding: 0.12rem 0.085rem 0 0.085rem;
+	box-sizing: border-box;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.content ul{
+	width: 100%;
+	height: auto;
+	margin: 10px auto;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+.content ul li a{
+	width: 0.66rem;
+	height: 0.66rem;
+	margin: 0 auto;
+	display: block;
+	text-decoration: none;
+	background: white;
+	border-radius: 0.15rem;
+}
+.content ul li{
+	width: 25%;
+	height: auto;
+	/* margin: 0 auto; */
+}
+.content ul li a{
+	/* background-image: url('../img/shouye6.png');
+	background-position: 0 0;
+	background-repeat:  no-repeat;
+	background-size:1.3rem;	 */
+	border-top: 1px solid rgba(0,0,0,0);
+}
+.content ul li a div{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin: 0.1rem auto;
+	background-repeat:  no-repeat;
+	background-size:1rem;
+}
+.content ul li:nth-child(1) a div{
+	background-image: url('../img/shouye6.png');
+	background-position: 0 0;
+	
+}
+.content ul li:nth-child(2) a div{
+	background-image: url('../img/shouye6.png');
+	background-position: -0.5rem 0;
+}
+.content ul li:nth-child(3) a div{
+	background-image: url('../img/shouye6.png');
+	background-position: 0.05rem -0.6rem;
+}
+.content ul li:nth-child(4) a div{
+	background-image: url('../img/ufo.png');
+	background-position: 0rem 0rem;
+	background-size:0.5rem;
+}		
+.content ul li:nth-child(5) a div{
+	background-image: url('../img/shouye6.png');
+	background-position: -0.5rem -0.5rem;
+}	
+.content ul li:nth-child(6) a div{
+	background-image: url('../img/shouye6.png');
+	background-position: 0rem -1.7rem;
+}
+.content ul li:nth-child(7) a div{
+	background-image: url('../img/shouye6.png');
+	background-position: 0rem -1.1rem;
+}
+.content ul li:nth-child(8) a div{
+	background-image: url('../img/shouye6.png');
+	background-position: -0.5rem -1.1rem;
+}
+.content ul li  span{
+	width:100%;
+	height: 0.20rem;
+	line-height: 0.20rem;
+	font-size:0.10rem;
+	text-align: center;
+	color: black; 
+	display: block;
+	margin-top: 0.05rem
+}
+/* 项目结束 */
+/* 服务体系开始 */
+.service{
+	width: 100%;
+	height: auto;
+}
+.service .title{
+	width: 100%;
+	height: 0.27rem;
+	border-bottom:1px solid #e8e8e8;
+	text-align: center;
+	line-height: 0.27rem;
+	font-size: 0.12rem;
+	color: #1378ba;
+}
+/* .service ul.con-1{
+	width: 100%;
+	height: 0.93rem;
+	border-bottom: 1px solid #e8e8e8;
+	display: flex;
+}
+
+.service ul.con-1 li{
+	width: 50%;
+	height: 100%;
+	border-right: 1px solid #e8e8e8;
+	padding: 0.18rem 0 0.18rem 0.14rem;
+	box-sizing: border-box;
+} */
+/* .service ul.con-1 >li a{
+	display: block;
+	text-decoration: none;
+} */
+/* 
+ */
+.r{
+	width: 100%;
+}
+.r ul li a:nth-child(1){
+	width: 50%;
+	height: 1.09rem;
+	display: block;
+	text-decoration: none;
+	border-right: 1px solid#E8E8E8;
+	box-sizing: border-box;
+	float: left;
+	font-size: 0.1rem;
+	position: relative;
+	border-bottom: 1px solid#E8E8E8;
+}
+.r ul li a:nth-child(1)>spen{
+	display: block;
+	margin-top: 0.22rem;
+	margin-left: 0.08rem;
+	color: #000;
+}
+.r ul li a:nth-child(1)>pre{
+	display: block;
+	margin-left: 0.08rem;
+	color: #ACACAC;
+}
+.r ul li a:nth-child(1)>img{
+	width: 0.75rem;
+	height: 0.75rem;
+    position: absolute;
+    top: 0.12rem;
+    left: 0.8rem;
+}
+.r ul li a:nth-child(2){
+	width: 50%;
+	height: 1.09rem;
+	display: block;
+	text-decoration: none;
+	float: left;
+	font-size: 0.1rem;
+	position: relative;
+	border-bottom: 1px solid#E8E8E8;
+	box-sizing: border-box;
+}
+.r ul li a:nth-child(2)>spen{
+	display: block;
+	margin-top: 0.22rem;
+	margin-left: 0.08rem;
+}
+.r ul li a:nth-child(2)>pre{
+	display: block;
+	margin-left: 0.08rem;
+	color: #ACACAC;
+}
+.r ul li a:nth-child(2)>img{
+	width: 0.75rem;
+	height: 0.75rem;
+    position: absolute;
+    top: 0.12rem;
+    left: 0.8rem;
+}
+.service ul.con-2{
+	width: 100%;
+	height: 0.9rem;
+	border-bottom: 1px solid #e8e8e8;
+	display: flex;
+}
+.service ul.con-2 li{
+	width: 33.33%;
+	height: 100%;
+	border-right: 1px solid #e8e8e8;
+	/* padding: 0.4rem 0 0.38rem 0.2rem; */
+	box-sizing: border-box;
+}
+.service ul.con-2 li a{
+	display: block;
+	text-decoration: none;
+	border: 1px solid rgba(0, 0, 0, 0);
+}
+.service ul.con-2 li a div:nth-child(1){
+	width: 0.256rem;
+	height: 0.256rem;
+	float: left;
+	margin: 0.14rem 0.04rem;
+	
+}
+.service ul.con-2 li a div:nth-child(2){
+	width: 0.64rem;
+	height: 0.28rem;
+	margin: 0.14rem 0rem;
+	float: left;
+}
+.service ul.con-2 li a div:nth-child(2) h2{
+	font-size:0.12rem;
+	color: black; 
+	font-weight: normal;
+	margin-bottom: 0.016rem;
+}
+.service ul.con-2 li a div:nth-child(2) h3{
+	font-size:0.1rem;
+	color:#999; 
+}
+.service ul.con-2 li:nth-child(1) a div:nth-child(1){
+	background-image: url('../img/shouye_01.png');
+	background-size:0.25rem;
+}
+.service ul.con-2 li:nth-child(2) a div:nth-child(1){
+	background-image: url('../img/shouye_02.png');
+	background-size:0.25rem;
+}
+.service ul.con-2 li:nth-child(3) a div:nth-child(1){
+	background-image: url('../img/shouye_03.png');
+	background-size:0.25rem;
+}
+
+/* 服务体系结束 */
+/* 底部开始 */
+.bottom{
+	width: 100%;
+	height: 0.384rem;
+	background: #e7e7e7;
+	border: 1px solid rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 99
+}
+.bottom >div:nth-child(1){
+	width: 30%;
+	height: 100%;
+	float: left;
+
+}
+.bottom >div:nth-child(1) div:nth-child(1){
+	width: 0.14rem;
+	height: 0.14rem;
+	float: left;
+	margin: 0.12rem 0.11rem;
+	background-image: url('../img/qq.png');
+	background-size: 0.14rem;
+	background-position: 0 0;
+}
+.bottom >div:nth-child(1) div:nth-child(2){
+	width: 0.5rem;
+	height: 0.384rem;
+	font-size: 0.12rem;
+	color: black;
+	float: left;
+	line-height: 0.384rem;
+	margin-left: -0.04rem;
+}
+.bottom>div:nth-child(2){
+	width: 40%;
+	height: 100%;
+	background: #ff8d12;
+	margin-top: -0.04rem;
+	float: left;
+	border-radius: 0.04rem;
+	margin-left: -0.05rem;
+	box-shadow:0 0  0.02rem #ff8d13 ;
+}
+.bottom>div:nth-child(2) div:nth-child(1){
+	width:0.15rem ;
+	height: 0.19rem;
+	float: left;
+	margin:0.115rem 0.15rem 0.115rem 0.25rem;
+	background-image: url('../img//shouye6.png') ;
+	background-size: 1rem;
+	background-position: -0.8rem -2.4rem;
+}
+.bottom>div:nth-child(2) div:nth-child(2){
+	width:0.5rem;
+	font-size:0.12rem;
+	color: white;
+	float: left;
+	margin-left: -0.1rem;
+	line-height: 0.384rem;
+}
+
+.bottom >div:nth-child(3){
+	width: 30%;
+	height: 100%;
+	float: right;
+}
+.bottom >div:nth-child(3) >div:nth-child(1){
+	width: 0.2rem;
+	height: 0.15rem;
+	margin: 0.115rem 0.1rem 0.115rem 0.15rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 1rem;
+	background-position:-0.8rem -2.65rem ;
+	float: left;
+}
+
+.bottom >div:nth-child(3) >div:nth-child(2){
+	width:0.5rem ;
+	height: 100%;
+	font-size:0.12rem;
+	color: black;
+	line-height: 0.384rem; 
+	float: left;
+	margin-left: -0.04rem;
+}
+/* 底部结束 */
